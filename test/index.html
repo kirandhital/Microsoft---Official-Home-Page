@@ -179,13 +179,14 @@
             grid-template-columns: repeat(4, 1fr);
             gap: 20px;
             padding: 0 40px 40px;
+            border-radius: 40px 40px 0 0;
            
         }
 
         .promo-card {
             background-color:rgb(204, 224, 223);
-            padding: 20px;
-            border-radius: 4px;
+            padding: 5px;
+            border-radius: 5px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             overflow: hidden;
         }
@@ -198,7 +199,37 @@
             margin-bottom: 20px;
             line-height: 1.5;
         }
-        
+        .xbox-content {
+            padding: 400px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background-image: url('/test/assets/images/xbox.png');
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 60px;
+            color: #fff;
+            margin-bottom: 40px;
+            background-size: cover;
+            height: 500px;
+        } 
+        .xbox-content h2{
+            font-size: 24px;
+            margin-bottom: 15px;
+            gap: 10px;
+            color:black;
+        }
+        .xbox-content p {
+            margin-bottom: 20px;
+            line-height: 1.5;
+            color:black;
+        }
+        .xbox-content a {
+            display: flex;
+            gap: 10px;
+            border-radius: 50px;
+        }
         footer {
             background-color: var(--ms-gray);
             padding: 40px 20px 20px;
@@ -367,22 +398,58 @@
 
     <section class="promo-cards">
         <div class="promo-card">
-            <img src="https://images.unsplash.com/photo-1527685216219-c7bee79b0089?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D"width="300px" height="200px">
+            <img src="/test/assets/images/card2.png"width="300px" height="200px">
             <h2>Download the Microsoft Edge browser</h2>
             <p>Get the best of Microsoft Edge with the new AI-powered Copilot.</p>
             <a href="#" class="btn">Download now</a>
         </div>
         <div class="promo-card">
+             <img src="/test/assets/images/card5.png"width="300px" height="200px">
             <h2>Up to $620 off Surface Laptop Studio 2</h2>
             <p>Go from cram sessions to study breaks with the ultimate all-in-one laptop.</p>
             <a href="#" class="btn">Shop Surface Laptop Studio 2</a>
         </div>
         <div class="promo-card">
+             <img src="/test/assets/images/card8.png"width="300px" height="200px">
             <h2>Get 3 free months¹ of Microsoft 365 Personal, then 50% off</h2>
             <p>Use your college email address2 to get innovative apps with Microsoft Copilot,3 1 TB of cloud storage, advanced security, and more for just $4.99 per month. See terms and conditions.</p>
             <a href="#" class="btn">Learn more</a>
         </div>
         <div class="promo-card">
+             <img src="/test/assets/images/card3.png"width="300px" height="200px">
+            <h2>Xbox Series X - 2TB</h2>
+            <p>Next-gen frame rate meets lightning-fast load times in the most powerful Xbox ever—now available with a 2TB SSD in special-edition Galaxy Black.</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+    </section>
+    <section class="x-box-card">
+        <div class="xbox-content">
+            <h2>Xbox controllers </h2>
+            <p>Elite, wireless, adaptive—find the controller that fits your style of play </p>
+            <a href="#" class="btn">Shop now</a> 
+        </div>
+    </section>
+      <section class="promo-cards">
+        <div class="promo-card">
+            <img src="/test/assets/images/card2.png"width="300px" height="200px">
+            <h2>Download the Microsoft Edge browser</h2>
+            <p>Get the best of Microsoft Edge with the new AI-powered Copilot.</p>
+            <a href="#" class="btn">Download now</a>
+        </div>
+        <div class="promo-card">
+             <img src="/test/assets/images/card5.png"width="300px" height="200px">
+            <h2>Up to $620 off Surface Laptop Studio 2</h2>
+            <p>Go from cram sessions to study breaks with the ultimate all-in-one laptop.</p>
+            <a href="#" class="btn">Shop Surface Laptop Studio 2</a>
+        </div>
+        <div class="promo-card">
+             <img src="/test/assets/images/card8.png"width="300px" height="200px">
+            <h2>Get 3 free months¹ of Microsoft 365 Personal, then 50% off</h2>
+            <p>Use your college email address2 to get innovative apps with Microsoft Copilot,3 1 TB of cloud storage, advanced security, and more for just $4.99 per month. See terms and conditions.</p>
+            <a href="#" class="btn">Learn more</a>
+        </div>
+        <div class="promo-card">
+             <img src="/test/assets/images/card3.png"width="300px" height="200px">
             <h2>Xbox Series X - 2TB</h2>
             <p>Next-gen frame rate meets lightning-fast load times in the most powerful Xbox ever—now available with a 2TB SSD in special-edition Galaxy Black.</p>
             <a href="#" class="btn">Shop now</a>
